@@ -66,7 +66,7 @@ class GithubUserProviderTest extends TestCase {
     public function tearDown() : void
 
     {
-        //on met tout à null
+        //on met tout à null.
         $this->client = null;
 
         $this->serializer = null;
