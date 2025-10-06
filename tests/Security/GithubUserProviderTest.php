@@ -68,11 +68,8 @@ class GithubUserProviderTest extends TestCase {
     {
         
         $this->client = null;
-
         $this->serializer = null;
-
         $this->streamedResponse = null;
-
         $this->response = null;
 
     }
