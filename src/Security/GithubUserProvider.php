@@ -34,7 +34,6 @@ class GithubUserProvider implements UserProviderInterface
         $userData = $this->serializer->deserialize($result, 'array', 'json');
 
         if (!$userData) {
-            //exception
             throw new LogicException('Did not managed to get your user info from Github.');
         }
 
